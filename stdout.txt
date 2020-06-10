@@ -1,0 +1,43 @@
+
+> contacts_app@0.1.0 submit /home/manolo/codenation/react-13
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.warn node_modules/moment/moment.js:283
+    Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+    Arguments: 
+    [0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: Admissão, _f: undefined, _strict: undefined, _locale: [object Object]
+    Error: 
+        at Function.createFromInputFallback (/home/manolo/codenation/react-13/node_modules/moment/moment.js:319:25)
+        at configFromString (/home/manolo/codenation/react-13/node_modules/moment/moment.js:2536:19)
+        at configFromInput (/home/manolo/codenation/react-13/node_modules/moment/moment.js:2978:13)
+        at prepareConfig (/home/manolo/codenation/react-13/node_modules/moment/moment.js:2961:13)
+        at createFromConfig (/home/manolo/codenation/react-13/node_modules/moment/moment.js:2928:44)
+        at createLocalOrUTC (/home/manolo/codenation/react-13/node_modules/moment/moment.js:3022:16)
+        at createLocal (/home/manolo/codenation/react-13/node_modules/moment/moment.js:3026:16)
+        at hooks (/home/manolo/codenation/react-13/node_modules/moment/moment.js:16:29)
+        at Contact.getFormatedDate (/home/manolo/codenation/react-13/src/components/Contact.js:10:29)
+        at Contact.render (/home/manolo/codenation/react-13/src/components/Contact.js:19:47)
+        at finishClassComponent (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+        at updateClassComponent (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+        at beginWork (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+        at beginWork$1 (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:23179:14)
+        at performUnitOfWork (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+        at workLoopSync (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+        at performSyncWorkOnRoot (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+        at scheduleUpdateOnFiber (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+        at updateContainer (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+        at /home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+        at unbatchedUpdates (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+        at legacyRenderSubtreeIntoContainer (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+        at Object.render (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+        at /home/manolo/codenation/react-13/node_modules/@testing-library/react/dist/pure.js:86:25
+        at batchedUpdates$1 (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+        at act (/home/manolo/codenation/react-13/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+        at render (/home/manolo/codenation/react-13/node_modules/@testing-library/react/dist/pure.js:82:26)
+        at Object.<anonymous> (/home/manolo/codenation/react-13/src/__tests__/submit.test.js:29:27)
+        at Object.asyncJestTest (/home/manolo/codenation/react-13/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+        at /home/manolo/codenation/react-13/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+        at new Promise (<anonymous>)
+        at mapper (/home/manolo/codenation/react-13/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+        at /home/manolo/codenation/react-13/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+
